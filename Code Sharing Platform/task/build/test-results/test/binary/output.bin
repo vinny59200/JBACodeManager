@@ -1,0 +1,687 @@
+[1;31m
+Start test 1[0m
+
+)  .   ____          _            __ _ _
+* /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
++( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+, \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
++  '  |____| .__|_| |_|_| |_\__, | / / / /
+* =========|_|==============|___/=/_/_/_/
+, :: Spring Boot ::                (v2.5.6)
+
+í2022-03-15 19:53:39.881  INFO 24092 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.1 on DESKTOP-063BMPJ with PID 24092 (started by Vinny in C:\_dev\VVSPRINGBOOT\Code Sharing Platform\Code Sharing Platform\task)
+¶2022-03-15 19:53:39.884  INFO 24092 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+°2022-03-15 19:53:40.617  INFO 24092 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+ª2022-03-15 19:53:40.666  INFO 24092 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interfaces.
+í2022-03-15 19:53:41.648  INFO 24092 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2022-03-15 19:53:41.660  INFO 24092 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+ï2022-03-15 19:53:41.660  INFO 24092 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+ò2022-03-15 19:53:41.797  INFO 24092 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+•2022-03-15 19:53:41.798  INFO 24092 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1864 ms
+Ä2022-03-15 19:53:41.945  INFO 24092 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+Ö2022-03-15 19:53:42.208  INFO 24092 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+ﬂ2022-03-15 19:53:42.217  INFO 24092 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:C:/_dev/VVSPRINGBOOT/Code Sharing Platform/data/sampledata'
+ü2022-03-15 19:53:42.445  INFO 24092 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+ò2022-03-15 19:53:42.511  INFO 24092 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+û2022-03-15 19:53:42.714  INFO 24092 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+ü2022-03-15 19:53:42.867  INFO 24092 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+êHibernate: create table vvcode (id varchar(255) not null, content varchar(255), date timestamp, time integer, views integer, primary key (id))
+Ÿ2022-03-15 19:53:43.643  INFO 24092 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+©2022-03-15 19:53:43.654  INFO 24092 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ù2022-03-15 19:53:44.159  WARN 24092 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ñ2022-03-15 19:53:45.106  WARN 24092 --- [    Test worker] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+õ2022-03-15 19:53:45.152  INFO 24092 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+°2022-03-15 19:53:45.208  INFO 24092 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+™2022-03-15 19:53:45.240  INFO 24092 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 5.746 seconds (JVM running for 6.546)
+ü2022-03-15 19:53:45.776  INFO 24092 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+é2022-03-15 19:53:45.777  INFO 24092 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+Ü2022-03-15 19:53:45.782  INFO 24092 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+z2022-03-15 19:53:45.838 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : getCodeHTMLInputPage
+[1;31m
+Start test 2[0m
+z2022-03-15 19:53:46.023 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+î2022-03-15 19:53:46.024 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : {code=public static void ..., time=0, views=0}
+◊2022-03-15 19:53:46.040 ERROR 24092 --- [nio-8889-exec-2] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=public static void ..., time=0, views=0, date=2022-03-15T19:53:46.024222)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 3[0m
+õ2022-03-15 19:53:46.195 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : getCodeJSONById: 64b541f0-6bfc-4353-af45-0e98b345dbdc
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.239 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 4[0m
+y2022-03-15 19:53:46.259 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 5[0m
+w2022-03-15 19:53:46.271 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : getCodeJSONLatest
+ŒHibernate: select vvcode0_.id as id1_0_, vvcode0_.content as content2_0_, vvcode0_.date as date3_0_, vvcode0_.time as time4_0_, vvcode0_.views as views5_0_ from vvcode vvcode0_ order by vvcode0_.date desc
+˙2022-03-15 19:53:46.503 ERROR 24092 --- [nio-8889-exec-5] platform.vv.service.VVCodeService        : VV54 vvCodeList: [VVCode(id=64b541f0-6bfc-4353-af45-0e98b345dbdc, content=public static void ..., time=0, views=0, date=2022-03-15T19:53:46.024222)]
+[1;31m
+Start test 6[0m
+{2022-03-15 19:53:46.531 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : getCodeHTMLPageLatest
+ŒHibernate: select vvcode0_.id as id1_0_, vvcode0_.content as content2_0_, vvcode0_.date as date3_0_, vvcode0_.time as time4_0_, vvcode0_.views as views5_0_ from vvcode vvcode0_ order by vvcode0_.date desc
+˙2022-03-15 19:53:46.535 ERROR 24092 --- [nio-8889-exec-8] platform.vv.service.VVCodeService        : VV54 vvCodeList: [VVCode(id=64b541f0-6bfc-4353-af45-0e98b345dbdc, content=public static void ..., time=0, views=0, date=2022-03-15T19:53:46.024222)]
+[1;31m
+Start test 7[0m
+z2022-03-15 19:53:46.545 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+é2022-03-15 19:53:46.545 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : {code=class Code { ..., time=0, views=0}
+‘2022-03-15 19:53:46.545 ERROR 24092 --- [nio-8889-exec-9] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=class Code { ..., time=0, views=0, date=2022-03-15T19:53:46.545301900)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 8[0m
+õ2022-03-15 19:53:46.557 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : getCodeJSONById: 64b541f0-6bfc-4353-af45-0e98b345dbdc
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.559 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 9[0m
+y2022-03-15 19:53:46.570 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 10[0m
+õ2022-03-15 19:53:46.582 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : getCodeJSONById: 2b782d1d-e753-47df-bf76-0f2e4f7d445e
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.585 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 11[0m
+y2022-03-15 19:53:46.594 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 12[0m
+w2022-03-15 19:53:46.605 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : getCodeJSONLatest
+ŒHibernate: select vvcode0_.id as id1_0_, vvcode0_.content as content2_0_, vvcode0_.date as date3_0_, vvcode0_.time as time4_0_, vvcode0_.views as views5_0_ from vvcode vvcode0_ order by vvcode0_.date desc
+˜2022-03-15 19:53:46.609 ERROR 24092 --- [nio-8889-exec-4] platform.vv.service.VVCodeService        : VV54 vvCodeList: [VVCode(id=2b782d1d-e753-47df-bf76-0f2e4f7d445e, content=class Code { ..., time=0, views=0, date=2022-03-15T19:53:46.545302), VVCode(id=64b541f0-6bfc-4353-af45-0e98b345dbdc, content=public static void ..., time=0, views=0, date=2022-03-15T19:53:46.024222)]
+[1;31m
+Start test 13[0m
+{2022-03-15 19:53:46.619 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : getCodeHTMLPageLatest
+ŒHibernate: select vvcode0_.id as id1_0_, vvcode0_.content as content2_0_, vvcode0_.date as date3_0_, vvcode0_.time as time4_0_, vvcode0_.views as views5_0_ from vvcode vvcode0_ order by vvcode0_.date desc
+˜2022-03-15 19:53:46.621 ERROR 24092 --- [nio-8889-exec-7] platform.vv.service.VVCodeService        : VV54 vvCodeList: [VVCode(id=2b782d1d-e753-47df-bf76-0f2e4f7d445e, content=class Code { ..., time=0, views=0, date=2022-03-15T19:53:46.545302), VVCode(id=64b541f0-6bfc-4353-af45-0e98b345dbdc, content=public static void ..., time=0, views=0, date=2022-03-15T19:53:46.024222)]
+[1;31m
+Start test 14[0m
+z2022-03-15 19:53:46.632 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+à2022-03-15 19:53:46.633 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : {code=Snippet #3, time=0, views=0}
+Œ2022-03-15 19:53:46.633 ERROR 24092 --- [nio-8889-exec-6] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #3, time=0, views=0, date=2022-03-15T19:53:46.633076500)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 15[0m
+z2022-03-15 19:53:46.645 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+à2022-03-15 19:53:46.645 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : {code=Snippet #4, time=0, views=0}
+Œ2022-03-15 19:53:46.646 ERROR 24092 --- [nio-8889-exec-5] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #4, time=0, views=0, date=2022-03-15T19:53:46.646425500)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 16[0m
+z2022-03-15 19:53:46.659 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+à2022-03-15 19:53:46.659 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : {code=Snippet #5, time=0, views=0}
+Œ2022-03-15 19:53:46.660 ERROR 24092 --- [nio-8889-exec-8] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #5, time=0, views=0, date=2022-03-15T19:53:46.659392700)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 17[0m
+z2022-03-15 19:53:46.669 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+à2022-03-15 19:53:46.671 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : {code=Snippet #6, time=0, views=0}
+Œ2022-03-15 19:53:46.671 ERROR 24092 --- [nio-8889-exec-9] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #6, time=0, views=0, date=2022-03-15T19:53:46.671870800)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 18[0m
+z2022-03-15 19:53:46.682 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+à2022-03-15 19:53:46.683 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : {code=Snippet #7, time=0, views=0}
+Œ2022-03-15 19:53:46.683 ERROR 24092 --- [io-8889-exec-10] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #7, time=0, views=0, date=2022-03-15T19:53:46.683355400)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 19[0m
+z2022-03-15 19:53:46.694 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+à2022-03-15 19:53:46.694 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : {code=Snippet #8, time=0, views=0}
+Œ2022-03-15 19:53:46.695 ERROR 24092 --- [nio-8889-exec-1] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #8, time=0, views=0, date=2022-03-15T19:53:46.695322600)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 20[0m
+z2022-03-15 19:53:46.705 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+à2022-03-15 19:53:46.706 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : {code=Snippet #9, time=0, views=0}
+Œ2022-03-15 19:53:46.706 ERROR 24092 --- [nio-8889-exec-2] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #9, time=0, views=0, date=2022-03-15T19:53:46.706292700)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 21[0m
+z2022-03-15 19:53:46.717 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+â2022-03-15 19:53:46.718 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : {code=Snippet #10, time=0, views=0}
+œ2022-03-15 19:53:46.718 ERROR 24092 --- [nio-8889-exec-3] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #10, time=0, views=0, date=2022-03-15T19:53:46.718263900)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 22[0m
+z2022-03-15 19:53:46.728 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+â2022-03-15 19:53:46.728 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : {code=Snippet #11, time=0, views=0}
+Ã2022-03-15 19:53:46.729 ERROR 24092 --- [nio-8889-exec-4] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #11, time=0, views=0, date=2022-03-15T19:53:46.728235)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 23[0m
+z2022-03-15 19:53:46.739 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+â2022-03-15 19:53:46.739 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : {code=Snippet #12, time=0, views=0}
+œ2022-03-15 19:53:46.739 ERROR 24092 --- [nio-8889-exec-7] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #12, time=0, views=0, date=2022-03-15T19:53:46.739205500)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 24[0m
+z2022-03-15 19:53:46.749 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+â2022-03-15 19:53:46.749 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : {code=Snippet #13, time=0, views=0}
+œ2022-03-15 19:53:46.749 ERROR 24092 --- [nio-8889-exec-6] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #13, time=0, views=0, date=2022-03-15T19:53:46.749178400)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 25[0m
+z2022-03-15 19:53:46.759 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+â2022-03-15 19:53:46.759 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : {code=Snippet #14, time=0, views=0}
+œ2022-03-15 19:53:46.759 ERROR 24092 --- [nio-8889-exec-5] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #14, time=0, views=0, date=2022-03-15T19:53:46.759004400)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 26[0m
+õ2022-03-15 19:53:46.768 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : getCodeJSONById: 64b541f0-6bfc-4353-af45-0e98b345dbdc
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.770 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 27[0m
+y2022-03-15 19:53:46.776 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 28[0m
+õ2022-03-15 19:53:46.785 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : getCodeJSONById: 2b782d1d-e753-47df-bf76-0f2e4f7d445e
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.787 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 29[0m
+y2022-03-15 19:53:46.795 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 30[0m
+õ2022-03-15 19:53:46.805 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : getCodeJSONById: 41349b3b-8362-4a0a-bfaa-b5e69b2cf035
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.807 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 31[0m
+y2022-03-15 19:53:46.816 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 32[0m
+õ2022-03-15 19:53:46.825 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : getCodeJSONById: 64be27a9-bfa4-4a28-983c-ae2f00d72527
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.827 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 33[0m
+y2022-03-15 19:53:46.835 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 34[0m
+õ2022-03-15 19:53:46.843 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : getCodeJSONById: 26c090b8-4d7d-4cff-832b-cd76096fc37d
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.845 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 35[0m
+y2022-03-15 19:53:46.851 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 36[0m
+õ2022-03-15 19:53:46.860 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : getCodeJSONById: d8becce7-599c-421e-80a1-17cfe3832404
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.862 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 37[0m
+y2022-03-15 19:53:46.870 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 38[0m
+õ2022-03-15 19:53:46.879 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : getCodeJSONById: 37e919a3-e26c-4583-b349-edaf557c0978
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.881 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 39[0m
+y2022-03-15 19:53:46.888 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 40[0m
+õ2022-03-15 19:53:46.896 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : getCodeJSONById: 933a929d-beda-45ac-a30d-c7c06fe631d1
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.898 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 41[0m
+y2022-03-15 19:53:46.905 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 42[0m
+õ2022-03-15 19:53:46.913 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : getCodeJSONById: c4fa96c7-4352-4ff3-9960-eb9ffa94dde2
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.915 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 43[0m
+y2022-03-15 19:53:46.921 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 44[0m
+õ2022-03-15 19:53:46.930 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : getCodeJSONById: 2c7eb7cc-8202-4f52-babf-d778b6423e28
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.932 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 45[0m
+y2022-03-15 19:53:46.939 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 46[0m
+õ2022-03-15 19:53:46.956 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : getCodeJSONById: dc707327-fff2-4a59-8ab3-ffd8e531cb4f
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.969 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 47[0m
+y2022-03-15 19:53:46.980 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 48[0m
+õ2022-03-15 19:53:46.990 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : getCodeJSONById: ca1bc0b8-6926-41d2-ba80-58c421fec108
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:46.993 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 49[0m
+y2022-03-15 19:53:47.002 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 50[0m
+õ2022-03-15 19:53:47.018 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : getCodeJSONById: 4a18133a-abce-45d3-8e6d-5d656f8b7ee8
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:47.021 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 51[0m
+y2022-03-15 19:53:47.029 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 52[0m
+õ2022-03-15 19:53:47.038 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : getCodeJSONById: 89a0a6bf-a055-43d1-8ceb-747ac0522bc2
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:47.040 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 53[0m
+y2022-03-15 19:53:47.047 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 54[0m
+w2022-03-15 19:53:47.055 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : getCodeJSONLatest
+ŒHibernate: select vvcode0_.id as id1_0_, vvcode0_.content as content2_0_, vvcode0_.date as date3_0_, vvcode0_.time as time4_0_, vvcode0_.views as views5_0_ from vvcode vvcode0_ order by vvcode0_.date desc
+ê2022-03-15 19:53:47.058 ERROR 24092 --- [nio-8889-exec-8] platform.vv.service.VVCodeService        : VV54 vvCodeList: [VVCode(id=89a0a6bf-a055-43d1-8ceb-747ac0522bc2, content=Snippet #14, time=0, views=0, date=2022-03-15T19:53:46.759004), VVCode(id=4a18133a-abce-45d3-8e6d-5d656f8b7ee8, content=Snippet #13, time=0, views=0, date=2022-03-15T19:53:46.749178), VVCode(id=ca1bc0b8-6926-41d2-ba80-58c421fec108, content=Snippet #12, time=0, views=0, date=2022-03-15T19:53:46.739206), VVCode(id=dc707327-fff2-4a59-8ab3-ffd8e531cb4f, content=Snippet #11, time=0, views=0, date=2022-03-15T19:53:46.728235), VVCode(id=2c7eb7cc-8202-4f52-babf-d778b6423e28, content=Snippet #10, time=0, views=0, date=2022-03-15T19:53:46.718264), VVCode(id=c4fa96c7-4352-4ff3-9960-eb9ffa94dde2, content=Snippet #9, time=0, views=0, date=2022-03-15T19:53:46.706293), VVCode(id=933a929d-beda-45ac-a30d-c7c06fe631d1, content=Snippet #8, time=0, views=0, date=2022-03-15T19:53:46.695323), VVCode(id=37e919a3-e26c-4583-b349-edaf557c0978, content=Snippet #7, time=0, views=0, date=2022-03-15T19:53:46.683355), VVCode(id=d8becce7-599c-421e-80a1-17cfe3832404, content=Snippet #6, time=0, views=0, date=2022-03-15T19:53:46.671871), VVCode(id=26c090b8-4d7d-4cff-832b-cd76096fc37d, content=Snippet #5, time=0, views=0, date=2022-03-15T19:53:46.659393), VVCode(id=64be27a9-bfa4-4a28-983c-ae2f00d72527, content=Snippet #4, time=0, views=0, date=2022-03-15T19:53:46.646426), VVCode(id=41349b3b-8362-4a0a-bfaa-b5e69b2cf035, content=Snippet #3, time=0, views=0, date=2022-03-15T19:53:46.633077), VVCode(id=2b782d1d-e753-47df-bf76-0f2e4f7d445e, content=class Code { ..., time=0, views=0, date=2022-03-15T19:53:46.545302), VVCode(id=64b541f0-6bfc-4353-af45-0e98b345dbdc, content=public static void ..., time=0, views=0, date=2022-03-15T19:53:46.024222)]
+[1;31m
+Start test 55[0m
+{2022-03-15 19:53:47.067 ERROR 24092 --- [io-8889-exec-12] p.vv.controller.CodeSharingController    : getCodeHTMLPageLatest
+ŒHibernate: select vvcode0_.id as id1_0_, vvcode0_.content as content2_0_, vvcode0_.date as date3_0_, vvcode0_.time as time4_0_, vvcode0_.views as views5_0_ from vvcode vvcode0_ order by vvcode0_.date desc
+ê2022-03-15 19:53:47.071 ERROR 24092 --- [io-8889-exec-12] platform.vv.service.VVCodeService        : VV54 vvCodeList: [VVCode(id=89a0a6bf-a055-43d1-8ceb-747ac0522bc2, content=Snippet #14, time=0, views=0, date=2022-03-15T19:53:46.759004), VVCode(id=4a18133a-abce-45d3-8e6d-5d656f8b7ee8, content=Snippet #13, time=0, views=0, date=2022-03-15T19:53:46.749178), VVCode(id=ca1bc0b8-6926-41d2-ba80-58c421fec108, content=Snippet #12, time=0, views=0, date=2022-03-15T19:53:46.739206), VVCode(id=dc707327-fff2-4a59-8ab3-ffd8e531cb4f, content=Snippet #11, time=0, views=0, date=2022-03-15T19:53:46.728235), VVCode(id=2c7eb7cc-8202-4f52-babf-d778b6423e28, content=Snippet #10, time=0, views=0, date=2022-03-15T19:53:46.718264), VVCode(id=c4fa96c7-4352-4ff3-9960-eb9ffa94dde2, content=Snippet #9, time=0, views=0, date=2022-03-15T19:53:46.706293), VVCode(id=933a929d-beda-45ac-a30d-c7c06fe631d1, content=Snippet #8, time=0, views=0, date=2022-03-15T19:53:46.695323), VVCode(id=37e919a3-e26c-4583-b349-edaf557c0978, content=Snippet #7, time=0, views=0, date=2022-03-15T19:53:46.683355), VVCode(id=d8becce7-599c-421e-80a1-17cfe3832404, content=Snippet #6, time=0, views=0, date=2022-03-15T19:53:46.671871), VVCode(id=26c090b8-4d7d-4cff-832b-cd76096fc37d, content=Snippet #5, time=0, views=0, date=2022-03-15T19:53:46.659393), VVCode(id=64be27a9-bfa4-4a28-983c-ae2f00d72527, content=Snippet #4, time=0, views=0, date=2022-03-15T19:53:46.646426), VVCode(id=41349b3b-8362-4a0a-bfaa-b5e69b2cf035, content=Snippet #3, time=0, views=0, date=2022-03-15T19:53:46.633077), VVCode(id=2b782d1d-e753-47df-bf76-0f2e4f7d445e, content=class Code { ..., time=0, views=0, date=2022-03-15T19:53:46.545302), VVCode(id=64b541f0-6bfc-4353-af45-0e98b345dbdc, content=public static void ..., time=0, views=0, date=2022-03-15T19:53:46.024222)]
+[1;31m
+Start test 56[0m
+•2022-03-15 19:53:47.634  INFO 24092 --- [       Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+ä2022-03-15 19:53:47.636  INFO 24092 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+à2022-03-15 19:53:47.646  INFO 24092 --- [       Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+)  .   ____          _            __ _ _
+* /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
++( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+, \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
++  '  |____| .__|_| |_|_| |_\__, | / / / /
+* =========|_|==============|___/=/_/_/_/
+, :: Spring Boot ::                (v2.5.6)
+
+í2022-03-15 19:53:47.812  INFO 24092 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.1 on DESKTOP-063BMPJ with PID 24092 (started by Vinny in C:\_dev\VVSPRINGBOOT\Code Sharing Platform\Code Sharing Platform\task)
+¶2022-03-15 19:53:47.812  INFO 24092 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+°2022-03-15 19:53:48.087  INFO 24092 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+∫2022-03-15 19:53:48.097  INFO 24092 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+í2022-03-15 19:53:48.458  INFO 24092 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2022-03-15 19:53:48.459  INFO 24092 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+ï2022-03-15 19:53:48.460  INFO 24092 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+ò2022-03-15 19:53:48.506  INFO 24092 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+§2022-03-15 19:53:48.506  INFO 24092 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 691 ms
+Ä2022-03-15 19:53:48.574  INFO 24092 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+Ö2022-03-15 19:53:48.607  INFO 24092 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+ﬂ2022-03-15 19:53:48.607  INFO 24092 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:C:/_dev/VVSPRINGBOOT/Code Sharing Platform/data/sampledata'
+ü2022-03-15 19:53:48.672  INFO 24092 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+ü2022-03-15 19:53:48.683  INFO 24092 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Ÿ2022-03-15 19:53:48.734  INFO 24092 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+©2022-03-15 19:53:48.735  INFO 24092 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ù2022-03-15 19:53:48.837  WARN 24092 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ñ2022-03-15 19:53:49.129  WARN 24092 --- [    Test worker] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+õ2022-03-15 19:53:49.161  INFO 24092 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+°2022-03-15 19:53:49.197  INFO 24092 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+´2022-03-15 19:53:49.208  INFO 24092 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 1.451 seconds (JVM running for 10.515)
+[1;31m
+Start test 57[0m
+ü2022-03-15 19:53:49.222  INFO 24092 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+é2022-03-15 19:53:49.223  INFO 24092 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+Ü2022-03-15 19:53:49.225  INFO 24092 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+õ2022-03-15 19:53:49.233 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : getCodeJSONById: 64b541f0-6bfc-4353-af45-0e98b345dbdc
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.239 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : recalculateTime: 0 3
+[1;31m
+Start test 58[0m
+y2022-03-15 19:53:49.250 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 59[0m
+õ2022-03-15 19:53:49.261 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : getCodeJSONById: 2b782d1d-e753-47df-bf76-0f2e4f7d445e
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.265 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 60[0m
+y2022-03-15 19:53:49.273 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 61[0m
+õ2022-03-15 19:53:49.286 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : getCodeJSONById: 41349b3b-8362-4a0a-bfaa-b5e69b2cf035
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.288 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 62[0m
+y2022-03-15 19:53:49.298 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 63[0m
+õ2022-03-15 19:53:49.313 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : getCodeJSONById: 64be27a9-bfa4-4a28-983c-ae2f00d72527
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.316 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 64[0m
+y2022-03-15 19:53:49.324 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 65[0m
+õ2022-03-15 19:53:49.337 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : getCodeJSONById: 26c090b8-4d7d-4cff-832b-cd76096fc37d
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.340 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 66[0m
+y2022-03-15 19:53:49.350 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 67[0m
+õ2022-03-15 19:53:49.360 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : getCodeJSONById: d8becce7-599c-421e-80a1-17cfe3832404
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.362 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 68[0m
+y2022-03-15 19:53:49.369 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 69[0m
+õ2022-03-15 19:53:49.382 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : getCodeJSONById: 37e919a3-e26c-4583-b349-edaf557c0978
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.383 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 70[0m
+y2022-03-15 19:53:49.391 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 71[0m
+õ2022-03-15 19:53:49.400 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : getCodeJSONById: 933a929d-beda-45ac-a30d-c7c06fe631d1
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.402 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 72[0m
+y2022-03-15 19:53:49.413 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 73[0m
+õ2022-03-15 19:53:49.423 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : getCodeJSONById: c4fa96c7-4352-4ff3-9960-eb9ffa94dde2
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.426 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 74[0m
+y2022-03-15 19:53:49.435 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 75[0m
+õ2022-03-15 19:53:49.447 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : getCodeJSONById: 2c7eb7cc-8202-4f52-babf-d778b6423e28
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.450 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 76[0m
+y2022-03-15 19:53:49.461 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 77[0m
+õ2022-03-15 19:53:49.474 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : getCodeJSONById: dc707327-fff2-4a59-8ab3-ffd8e531cb4f
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.477 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 78[0m
+y2022-03-15 19:53:49.487 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 79[0m
+õ2022-03-15 19:53:49.506 ERROR 24092 --- [io-8889-exec-17] p.vv.controller.CodeSharingController    : getCodeJSONById: ca1bc0b8-6926-41d2-ba80-58c421fec108
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.509 ERROR 24092 --- [io-8889-exec-17] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 80[0m
+y2022-03-15 19:53:49.520 ERROR 24092 --- [io-8889-exec-14] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 81[0m
+õ2022-03-15 19:53:49.534 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : getCodeJSONById: 4a18133a-abce-45d3-8e6d-5d656f8b7ee8
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.536 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 82[0m
+y2022-03-15 19:53:49.546 ERROR 24092 --- [io-8889-exec-18] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 83[0m
+õ2022-03-15 19:53:49.557 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : getCodeJSONById: 89a0a6bf-a055-43d1-8ceb-747ac0522bc2
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.559 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : recalculateTime: 0 2
+[1;31m
+Start test 84[0m
+y2022-03-15 19:53:49.568 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 85[0m
+w2022-03-15 19:53:49.577 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : getCodeJSONLatest
+ŒHibernate: select vvcode0_.id as id1_0_, vvcode0_.content as content2_0_, vvcode0_.date as date3_0_, vvcode0_.time as time4_0_, vvcode0_.views as views5_0_ from vvcode vvcode0_ order by vvcode0_.date desc
+ê2022-03-15 19:53:49.585 ERROR 24092 --- [nio-8889-exec-6] platform.vv.service.VVCodeService        : VV54 vvCodeList: [VVCode(id=89a0a6bf-a055-43d1-8ceb-747ac0522bc2, content=Snippet #14, time=0, views=0, date=2022-03-15T19:53:46.759004), VVCode(id=4a18133a-abce-45d3-8e6d-5d656f8b7ee8, content=Snippet #13, time=0, views=0, date=2022-03-15T19:53:46.749178), VVCode(id=ca1bc0b8-6926-41d2-ba80-58c421fec108, content=Snippet #12, time=0, views=0, date=2022-03-15T19:53:46.739206), VVCode(id=dc707327-fff2-4a59-8ab3-ffd8e531cb4f, content=Snippet #11, time=0, views=0, date=2022-03-15T19:53:46.728235), VVCode(id=2c7eb7cc-8202-4f52-babf-d778b6423e28, content=Snippet #10, time=0, views=0, date=2022-03-15T19:53:46.718264), VVCode(id=c4fa96c7-4352-4ff3-9960-eb9ffa94dde2, content=Snippet #9, time=0, views=0, date=2022-03-15T19:53:46.706293), VVCode(id=933a929d-beda-45ac-a30d-c7c06fe631d1, content=Snippet #8, time=0, views=0, date=2022-03-15T19:53:46.695323), VVCode(id=37e919a3-e26c-4583-b349-edaf557c0978, content=Snippet #7, time=0, views=0, date=2022-03-15T19:53:46.683355), VVCode(id=d8becce7-599c-421e-80a1-17cfe3832404, content=Snippet #6, time=0, views=0, date=2022-03-15T19:53:46.671871), VVCode(id=26c090b8-4d7d-4cff-832b-cd76096fc37d, content=Snippet #5, time=0, views=0, date=2022-03-15T19:53:46.659393), VVCode(id=64be27a9-bfa4-4a28-983c-ae2f00d72527, content=Snippet #4, time=0, views=0, date=2022-03-15T19:53:46.646426), VVCode(id=41349b3b-8362-4a0a-bfaa-b5e69b2cf035, content=Snippet #3, time=0, views=0, date=2022-03-15T19:53:46.633077), VVCode(id=2b782d1d-e753-47df-bf76-0f2e4f7d445e, content=class Code { ..., time=0, views=0, date=2022-03-15T19:53:46.545302), VVCode(id=64b541f0-6bfc-4353-af45-0e98b345dbdc, content=public static void ..., time=0, views=0, date=2022-03-15T19:53:46.024222)]
+[1;31m
+Start test 86[0m
+{2022-03-15 19:53:49.597 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : getCodeHTMLPageLatest
+ŒHibernate: select vvcode0_.id as id1_0_, vvcode0_.content as content2_0_, vvcode0_.date as date3_0_, vvcode0_.time as time4_0_, vvcode0_.views as views5_0_ from vvcode vvcode0_ order by vvcode0_.date desc
+ê2022-03-15 19:53:49.602 ERROR 24092 --- [nio-8889-exec-7] platform.vv.service.VVCodeService        : VV54 vvCodeList: [VVCode(id=89a0a6bf-a055-43d1-8ceb-747ac0522bc2, content=Snippet #14, time=0, views=0, date=2022-03-15T19:53:46.759004), VVCode(id=4a18133a-abce-45d3-8e6d-5d656f8b7ee8, content=Snippet #13, time=0, views=0, date=2022-03-15T19:53:46.749178), VVCode(id=ca1bc0b8-6926-41d2-ba80-58c421fec108, content=Snippet #12, time=0, views=0, date=2022-03-15T19:53:46.739206), VVCode(id=dc707327-fff2-4a59-8ab3-ffd8e531cb4f, content=Snippet #11, time=0, views=0, date=2022-03-15T19:53:46.728235), VVCode(id=2c7eb7cc-8202-4f52-babf-d778b6423e28, content=Snippet #10, time=0, views=0, date=2022-03-15T19:53:46.718264), VVCode(id=c4fa96c7-4352-4ff3-9960-eb9ffa94dde2, content=Snippet #9, time=0, views=0, date=2022-03-15T19:53:46.706293), VVCode(id=933a929d-beda-45ac-a30d-c7c06fe631d1, content=Snippet #8, time=0, views=0, date=2022-03-15T19:53:46.695323), VVCode(id=37e919a3-e26c-4583-b349-edaf557c0978, content=Snippet #7, time=0, views=0, date=2022-03-15T19:53:46.683355), VVCode(id=d8becce7-599c-421e-80a1-17cfe3832404, content=Snippet #6, time=0, views=0, date=2022-03-15T19:53:46.671871), VVCode(id=26c090b8-4d7d-4cff-832b-cd76096fc37d, content=Snippet #5, time=0, views=0, date=2022-03-15T19:53:46.659393), VVCode(id=64be27a9-bfa4-4a28-983c-ae2f00d72527, content=Snippet #4, time=0, views=0, date=2022-03-15T19:53:46.646426), VVCode(id=41349b3b-8362-4a0a-bfaa-b5e69b2cf035, content=Snippet #3, time=0, views=0, date=2022-03-15T19:53:46.633077), VVCode(id=2b782d1d-e753-47df-bf76-0f2e4f7d445e, content=class Code { ..., time=0, views=0, date=2022-03-15T19:53:46.545302), VVCode(id=64b541f0-6bfc-4353-af45-0e98b345dbdc, content=public static void ..., time=0, views=0, date=2022-03-15T19:53:46.024222)]
+[1;31m
+Start test 87[0m
+z2022-03-15 19:53:49.613 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+â2022-03-15 19:53:49.614 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : {code=Snippet #15, time=0, views=0}
+œ2022-03-15 19:53:49.614 ERROR 24092 --- [nio-8889-exec-8] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #15, time=0, views=0, date=2022-03-15T19:53:49.614975900)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 88[0m
+z2022-03-15 19:53:49.637 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+å2022-03-15 19:53:49.637 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : {code=Snippet #16, time=100, views=20}
+“2022-03-15 19:53:49.637 ERROR 24092 --- [nio-8889-exec-9] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #16, time=100, views=20, date=2022-03-15T19:53:49.637434500)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 89[0m
+z2022-03-15 19:53:49.650 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+â2022-03-15 19:53:49.651 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : {code=Snippet #17, time=0, views=0}
+œ2022-03-15 19:53:49.651 ERROR 24092 --- [io-8889-exec-10] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #17, time=0, views=0, date=2022-03-15T19:53:49.651394400)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 90[0m
+z2022-03-15 19:53:49.665 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+â2022-03-15 19:53:49.665 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : {code=Snippet #18, time=0, views=5}
+œ2022-03-15 19:53:49.666 ERROR 24092 --- [nio-8889-exec-1] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #18, time=0, views=5, date=2022-03-15T19:53:49.666353700)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 91[0m
+z2022-03-15 19:53:49.685 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+â2022-03-15 19:53:49.685 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : {code=Snippet #19, time=0, views=0}
+œ2022-03-15 19:53:49.685 ERROR 24092 --- [nio-8889-exec-2] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #19, time=0, views=0, date=2022-03-15T19:53:49.685303200)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 92[0m
+z2022-03-15 19:53:49.711 ERROR 24092 --- [io-8889-exec-15] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+â2022-03-15 19:53:49.711 ERROR 24092 --- [io-8889-exec-15] p.vv.controller.CodeSharingController    : {code=Snippet #20, time=3, views=0}
+œ2022-03-15 19:53:49.712 ERROR 24092 --- [io-8889-exec-15] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #20, time=3, views=0, date=2022-03-15T19:53:49.712231700)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 93[0m
+z2022-03-15 19:53:49.736 ERROR 24092 --- [io-8889-exec-12] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+â2022-03-15 19:53:49.737 ERROR 24092 --- [io-8889-exec-12] p.vv.controller.CodeSharingController    : {code=Snippet #21, time=0, views=0}
+œ2022-03-15 19:53:49.737 ERROR 24092 --- [io-8889-exec-12] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #21, time=0, views=0, date=2022-03-15T19:53:49.737164900)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 94[0m
+z2022-03-15 19:53:49.759 ERROR 24092 --- [io-8889-exec-11] p.vv.controller.CodeSharingController    : createNewCodeSnippet
+ä2022-03-15 19:53:49.760 ERROR 24092 --- [io-8889-exec-11] p.vv.controller.CodeSharingController    : {code=Snippet #22, time=30, views=0}
+Õ2022-03-15 19:53:49.760 ERROR 24092 --- [io-8889-exec-11] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=null, content=Snippet #22, time=30, views=0, date=2022-03-15T19:53:49.760104)
+WHibernate: insert into vvcode (content, date, time, views, id) values (?, ?, ?, ?, ?)
+[1;31m
+Start test 95[0m
+õ2022-03-15 19:53:49.776 ERROR 24092 --- [io-8889-exec-16] p.vv.controller.CodeSharingController    : getCodeJSONById: 9f63ed88-b199-411a-985d-448b90a8149c
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.780 ERROR 24092 --- [io-8889-exec-16] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 96[0m
+y2022-03-15 19:53:49.789 ERROR 24092 --- [io-8889-exec-19] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 97[0m
+õ2022-03-15 19:53:49.802 ERROR 24092 --- [io-8889-exec-17] p.vv.controller.CodeSharingController    : getCodeJSONById: c1a0c555-f07b-4ca9-ac48-ad2eb6bcfa22
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.804 ERROR 24092 --- [io-8889-exec-17] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 98[0m
+y2022-03-15 19:53:49.813 ERROR 24092 --- [io-8889-exec-14] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 99[0m
+õ2022-03-15 19:53:49.823 ERROR 24092 --- [io-8889-exec-13] p.vv.controller.CodeSharingController    : getCodeJSONById: 7d765798-ad2c-45a8-a884-8e4d53ada67f
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.826 ERROR 24092 --- [io-8889-exec-13] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 100[0m
+y2022-03-15 19:53:49.836 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 101[0m
+õ2022-03-15 19:53:49.846 ERROR 24092 --- [io-8889-exec-18] p.vv.controller.CodeSharingController    : getCodeJSONById: 99b45f93-aee3-43c0-8ee8-eb8a7b7c89d0
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:49.848 ERROR 24092 --- [io-8889-exec-18] p.vv.controller.CodeSharingController    : recalculateTime: 0 0
+[1;31m
+Start test 102[0m
+y2022-03-15 19:53:49.857 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+[1;31m
+Start test 103[0m
+
+)  .   ____          _            __ _ _
+* /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
++( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+, \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
++  '  |____| .__|_| |_|_| |_\__, | / / / /
+* =========|_|==============|___/=/_/_/_/
+, :: Spring Boot ::                (v2.5.6)
+
+í2022-03-15 19:53:55.508  INFO 24092 --- [    Test worker] platform.CodeSharingPlatform             : Starting CodeSharingPlatform using Java 17.0.1 on DESKTOP-063BMPJ with PID 24092 (started by Vinny in C:\_dev\VVSPRINGBOOT\Code Sharing Platform\Code Sharing Platform\task)
+¶2022-03-15 19:53:55.509  INFO 24092 --- [    Test worker] platform.CodeSharingPlatform             : No active profile set, falling back to default profiles: default
+°2022-03-15 19:53:55.710  INFO 24092 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+∫2022-03-15 19:53:55.716  INFO 24092 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+í2022-03-15 19:53:55.887  INFO 24092 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8889 (http)
+2022-03-15 19:53:55.888  INFO 24092 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+ï2022-03-15 19:53:55.888  INFO 24092 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+ò2022-03-15 19:53:55.918  INFO 24092 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+§2022-03-15 19:53:55.918  INFO 24092 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 407 ms
+Ä2022-03-15 19:53:55.954  INFO 24092 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+Ö2022-03-15 19:53:55.972  INFO 24092 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+ﬂ2022-03-15 19:53:55.972  INFO 24092 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2'. Database available at 'jdbc:h2:C:/_dev/VVSPRINGBOOT/Code Sharing Platform/data/sampledata'
+ü2022-03-15 19:53:56.010  INFO 24092 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+ü2022-03-15 19:53:56.016  INFO 24092 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+Ÿ2022-03-15 19:53:56.037  INFO 24092 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+©2022-03-15 19:53:56.038  INFO 24092 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+ù2022-03-15 19:53:56.100  WARN 24092 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+ñ2022-03-15 19:53:56.256  WARN 24092 --- [    Test worker] o.s.b.a.f.FreeMarkerAutoConfiguration    : Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+õ2022-03-15 19:53:56.273  INFO 24092 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+°2022-03-15 19:53:56.288  INFO 24092 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8889 (http) with context path ''
+™2022-03-15 19:53:56.292  INFO 24092 --- [    Test worker] platform.CodeSharingPlatform             : Started CodeSharingPlatform in 0.84 seconds (JVM running for 17.599)
+[1;31m
+Start test 104[0m
+[1;31m
+Start test 105[0m
+ü2022-03-15 19:53:56.298  INFO 24092 --- [nio-8889-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+é2022-03-15 19:53:56.298  INFO 24092 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+Ü2022-03-15 19:53:56.300  INFO 24092 --- [nio-8889-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+õ2022-03-15 19:53:56.304 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : getCodeJSONById: 2b9499df-e31a-44e9-ab5b-2bb2c2ddf471
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+|2022-03-15 19:53:56.308 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : recalculateTime: 100 6
+Ô2022-03-15 19:53:56.309 ERROR 24092 --- [nio-8889-exec-1] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=2b9499df-e31a-44e9-ab5b-2bb2c2ddf471, content=Snippet #16, time=100, views=19, date=2022-03-15T19:53:49.637435)
+LHibernate: update vvcode set content=?, date=?, time=?, views=? where id=?
+[1;31m
+Start test 106[0m
+y2022-03-15 19:53:56.330 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+|2022-03-15 19:53:56.332 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : recalculateTime: 100 6
+Ô2022-03-15 19:53:56.333 ERROR 24092 --- [nio-8889-exec-2] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=2b9499df-e31a-44e9-ab5b-2bb2c2ddf471, content=Snippet #16, time=100, views=18, date=2022-03-15T19:53:49.637435)
+LHibernate: update vvcode set content=?, date=?, time=?, views=? where id=?
+[1;31m
+Start test 107[0m
+õ2022-03-15 19:53:56.345 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : getCodeJSONById: 990a323b-fffa-40d0-a096-d55f18e23b4c
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:56.347 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : recalculateTime: 0 6
+Ï2022-03-15 19:53:56.347 ERROR 24092 --- [nio-8889-exec-3] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=990a323b-fffa-40d0-a096-d55f18e23b4c, content=Snippet #18, time=0, views=4, date=2022-03-15T19:53:49.666354)
+LHibernate: update vvcode set content=?, date=?, time=?, views=? where id=?
+[1;31m
+Start test 108[0m
+y2022-03-15 19:53:56.356 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+Ï2022-03-15 19:53:56.357 ERROR 24092 --- [nio-8889-exec-4] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=990a323b-fffa-40d0-a096-d55f18e23b4c, content=Snippet #18, time=0, views=3, date=2022-03-15T19:53:49.666354)
+LHibernate: update vvcode set content=?, date=?, time=?, views=? where id=?
+[1;31m
+Start test 109[0m
+õ2022-03-15 19:53:56.366 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : getCodeJSONById: e35eda9b-efcf-4672-8307-a1c680ea02d2
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:56.368 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : recalculateTime: 3 6
+[1;31m
+Start test 110[0m
+y2022-03-15 19:53:56.408 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:56.409 ERROR 24092 --- [nio-8889-exec-6] p.vv.controller.CodeSharingController    : recalculateTime: 3 6
+[1;31m
+Start test 111[0m
+õ2022-03-15 19:53:56.418 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : getCodeJSONById: 5bd2c613-6323-40b8-8ac5-adf82c12fec4
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+{2022-03-15 19:53:56.420 ERROR 24092 --- [nio-8889-exec-7] p.vv.controller.CodeSharingController    : recalculateTime: 30 6
+[1;31m
+Start test 112[0m
+y2022-03-15 19:53:56.427 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+{2022-03-15 19:53:56.429 ERROR 24092 --- [nio-8889-exec-8] p.vv.controller.CodeSharingController    : recalculateTime: 30 6
+[1;31m
+Start test 113[0m
+w2022-03-15 19:53:56.436 ERROR 24092 --- [nio-8889-exec-9] p.vv.controller.CodeSharingController    : getCodeJSONLatest
+ŒHibernate: select vvcode0_.id as id1_0_, vvcode0_.content as content2_0_, vvcode0_.date as date3_0_, vvcode0_.time as time4_0_, vvcode0_.views as views5_0_ from vvcode vvcode0_ order by vvcode0_.date desc
+2022-03-15 19:53:56.443 ERROR 24092 --- [nio-8889-exec-9] platform.vv.service.VVCodeService        : VV54 vvCodeList: [VVCode(id=99b45f93-aee3-43c0-8ee8-eb8a7b7c89d0, content=Snippet #21, time=0, views=0, date=2022-03-15T19:53:49.737165), VVCode(id=7d765798-ad2c-45a8-a884-8e4d53ada67f, content=Snippet #19, time=0, views=0, date=2022-03-15T19:53:49.685303), VVCode(id=c1a0c555-f07b-4ca9-ac48-ad2eb6bcfa22, content=Snippet #17, time=0, views=0, date=2022-03-15T19:53:49.651394), VVCode(id=9f63ed88-b199-411a-985d-448b90a8149c, content=Snippet #15, time=0, views=0, date=2022-03-15T19:53:49.614976), VVCode(id=89a0a6bf-a055-43d1-8ceb-747ac0522bc2, content=Snippet #14, time=0, views=0, date=2022-03-15T19:53:46.759004), VVCode(id=4a18133a-abce-45d3-8e6d-5d656f8b7ee8, content=Snippet #13, time=0, views=0, date=2022-03-15T19:53:46.749178), VVCode(id=ca1bc0b8-6926-41d2-ba80-58c421fec108, content=Snippet #12, time=0, views=0, date=2022-03-15T19:53:46.739206), VVCode(id=dc707327-fff2-4a59-8ab3-ffd8e531cb4f, content=Snippet #11, time=0, views=0, date=2022-03-15T19:53:46.728235), VVCode(id=2c7eb7cc-8202-4f52-babf-d778b6423e28, content=Snippet #10, time=0, views=0, date=2022-03-15T19:53:46.718264), VVCode(id=c4fa96c7-4352-4ff3-9960-eb9ffa94dde2, content=Snippet #9, time=0, views=0, date=2022-03-15T19:53:46.706293), VVCode(id=933a929d-beda-45ac-a30d-c7c06fe631d1, content=Snippet #8, time=0, views=0, date=2022-03-15T19:53:46.695323), VVCode(id=37e919a3-e26c-4583-b349-edaf557c0978, content=Snippet #7, time=0, views=0, date=2022-03-15T19:53:46.683355), VVCode(id=d8becce7-599c-421e-80a1-17cfe3832404, content=Snippet #6, time=0, views=0, date=2022-03-15T19:53:46.671871), VVCode(id=26c090b8-4d7d-4cff-832b-cd76096fc37d, content=Snippet #5, time=0, views=0, date=2022-03-15T19:53:46.659393), VVCode(id=64be27a9-bfa4-4a28-983c-ae2f00d72527, content=Snippet #4, time=0, views=0, date=2022-03-15T19:53:46.646426), VVCode(id=41349b3b-8362-4a0a-bfaa-b5e69b2cf035, content=Snippet #3, time=0, views=0, date=2022-03-15T19:53:46.633077), VVCode(id=2b782d1d-e753-47df-bf76-0f2e4f7d445e, content=class Code { ..., time=0, views=0, date=2022-03-15T19:53:46.545302), VVCode(id=64b541f0-6bfc-4353-af45-0e98b345dbdc, content=public static void ..., time=0, views=0, date=2022-03-15T19:53:46.024222)]
+[1;31m
+Start test 114[0m
+{2022-03-15 19:53:56.451 ERROR 24092 --- [io-8889-exec-10] p.vv.controller.CodeSharingController    : getCodeHTMLPageLatest
+ŒHibernate: select vvcode0_.id as id1_0_, vvcode0_.content as content2_0_, vvcode0_.date as date3_0_, vvcode0_.time as time4_0_, vvcode0_.views as views5_0_ from vvcode vvcode0_ order by vvcode0_.date desc
+2022-03-15 19:53:56.454 ERROR 24092 --- [io-8889-exec-10] platform.vv.service.VVCodeService        : VV54 vvCodeList: [VVCode(id=99b45f93-aee3-43c0-8ee8-eb8a7b7c89d0, content=Snippet #21, time=0, views=0, date=2022-03-15T19:53:49.737165), VVCode(id=7d765798-ad2c-45a8-a884-8e4d53ada67f, content=Snippet #19, time=0, views=0, date=2022-03-15T19:53:49.685303), VVCode(id=c1a0c555-f07b-4ca9-ac48-ad2eb6bcfa22, content=Snippet #17, time=0, views=0, date=2022-03-15T19:53:49.651394), VVCode(id=9f63ed88-b199-411a-985d-448b90a8149c, content=Snippet #15, time=0, views=0, date=2022-03-15T19:53:49.614976), VVCode(id=89a0a6bf-a055-43d1-8ceb-747ac0522bc2, content=Snippet #14, time=0, views=0, date=2022-03-15T19:53:46.759004), VVCode(id=4a18133a-abce-45d3-8e6d-5d656f8b7ee8, content=Snippet #13, time=0, views=0, date=2022-03-15T19:53:46.749178), VVCode(id=ca1bc0b8-6926-41d2-ba80-58c421fec108, content=Snippet #12, time=0, views=0, date=2022-03-15T19:53:46.739206), VVCode(id=dc707327-fff2-4a59-8ab3-ffd8e531cb4f, content=Snippet #11, time=0, views=0, date=2022-03-15T19:53:46.728235), VVCode(id=2c7eb7cc-8202-4f52-babf-d778b6423e28, content=Snippet #10, time=0, views=0, date=2022-03-15T19:53:46.718264), VVCode(id=c4fa96c7-4352-4ff3-9960-eb9ffa94dde2, content=Snippet #9, time=0, views=0, date=2022-03-15T19:53:46.706293), VVCode(id=933a929d-beda-45ac-a30d-c7c06fe631d1, content=Snippet #8, time=0, views=0, date=2022-03-15T19:53:46.695323), VVCode(id=37e919a3-e26c-4583-b349-edaf557c0978, content=Snippet #7, time=0, views=0, date=2022-03-15T19:53:46.683355), VVCode(id=d8becce7-599c-421e-80a1-17cfe3832404, content=Snippet #6, time=0, views=0, date=2022-03-15T19:53:46.671871), VVCode(id=26c090b8-4d7d-4cff-832b-cd76096fc37d, content=Snippet #5, time=0, views=0, date=2022-03-15T19:53:46.659393), VVCode(id=64be27a9-bfa4-4a28-983c-ae2f00d72527, content=Snippet #4, time=0, views=0, date=2022-03-15T19:53:46.646426), VVCode(id=41349b3b-8362-4a0a-bfaa-b5e69b2cf035, content=Snippet #3, time=0, views=0, date=2022-03-15T19:53:46.633077), VVCode(id=2b782d1d-e753-47df-bf76-0f2e4f7d445e, content=class Code { ..., time=0, views=0, date=2022-03-15T19:53:46.545302), VVCode(id=64b541f0-6bfc-4353-af45-0e98b345dbdc, content=public static void ..., time=0, views=0, date=2022-03-15T19:53:46.024222)]
+[1;31m
+Start test 115[0m
+õ2022-03-15 19:53:56.461 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : getCodeJSONById: 990a323b-fffa-40d0-a096-d55f18e23b4c
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:56.463 ERROR 24092 --- [nio-8889-exec-1] p.vv.controller.CodeSharingController    : recalculateTime: 0 6
+Ï2022-03-15 19:53:56.463 ERROR 24092 --- [nio-8889-exec-1] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=990a323b-fffa-40d0-a096-d55f18e23b4c, content=Snippet #18, time=0, views=2, date=2022-03-15T19:53:49.666354)
+LHibernate: update vvcode set content=?, date=?, time=?, views=? where id=?
+[1;31m
+Start test 116[0m
+õ2022-03-15 19:53:56.473 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : getCodeJSONById: 990a323b-fffa-40d0-a096-d55f18e23b4c
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:56.474 ERROR 24092 --- [nio-8889-exec-2] p.vv.controller.CodeSharingController    : recalculateTime: 0 6
+Ï2022-03-15 19:53:56.475 ERROR 24092 --- [nio-8889-exec-2] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=990a323b-fffa-40d0-a096-d55f18e23b4c, content=Snippet #18, time=0, views=1, date=2022-03-15T19:53:49.666354)
+LHibernate: update vvcode set content=?, date=?, time=?, views=? where id=?
+[1;31m
+Start test 117[0m
+y2022-03-15 19:53:56.483 ERROR 24092 --- [nio-8889-exec-3] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+Ì2022-03-15 19:53:56.485 ERROR 24092 --- [nio-8889-exec-3] platform.vv.service.VVCodeService        : VV2 saveOrUpdateVVCode(id=990a323b-fffa-40d0-a096-d55f18e23b4c, content=Snippet #18, time=0, views=-1, date=2022-03-15T19:53:49.666354)
+LHibernate: update vvcode set content=?, date=?, time=?, views=? where id=?
+[1;31m
+Start test 118[0m
+õ2022-03-15 19:53:56.494 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : getCodeJSONById: 990a323b-fffa-40d0-a096-d55f18e23b4c
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?
+z2022-03-15 19:53:56.496 ERROR 24092 --- [nio-8889-exec-4] p.vv.controller.CodeSharingController    : recalculateTime: 0 6
+[1;31m
+Start test 119[0m
+y2022-03-15 19:53:56.504 ERROR 24092 --- [nio-8889-exec-5] p.vv.controller.CodeSharingController    : getCodeHTMLPageById
+–Hibernate: select vvcode0_.id as id1_0_0_, vvcode0_.content as content2_0_0_, vvcode0_.date as date3_0_0_, vvcode0_.time as time4_0_0_, vvcode0_.views as views5_0_0_ from vvcode vvcode0_ where vvcode0_.id=?

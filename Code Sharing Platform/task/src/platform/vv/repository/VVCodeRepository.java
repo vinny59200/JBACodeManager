@@ -1,0 +1,9 @@
+package platform.vv.repository;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.CrudRepository;
+import platform.vv.model.VVCode;
+
+public interface VVCodeRepository extends JpaRepository<VVCode, String> {
+}
+
+

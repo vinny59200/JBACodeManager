@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":Topics-LocalTime-Same_time" external.linked.project.path="$MODULE_DIR$/../../../../../Topics/LocalTime/Same time" external.root.project.path="$MODULE_DIR$/../../../../.." external.system.id="GRADLE" external.system.module.group="Code Sharing Platform" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../../../Topics/LocalTime/Same time">
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/LocalTime/Same time/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/LocalTime/Same time/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../../Topics/LocalTime/Same time/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

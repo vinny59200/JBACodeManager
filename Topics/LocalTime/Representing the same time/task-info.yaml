@@ -1,0 +1,32 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: LocalTime.of(23, 30, 50).minusSeconds(30);
+- text: LocalTime.of(23, 50, 30).withSecond(0);
+- text: LocalTime.of(23, 50, 0).plusHours(24);
+- text: LocalTime.of(11, 50);
+- text: LocalTime.of(23, 50);
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2878#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Sat, 26 Feb 2022 17:28:17 UTC
+record: -1
+selected_options:
+- 1
+- 2
+- 4
